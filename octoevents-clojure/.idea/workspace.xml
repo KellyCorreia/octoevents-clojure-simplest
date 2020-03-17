@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b3bee03-c9be-4bbf-990f-8e8c2e895747" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ZECF6Y5DfnH6imuG5BJIlaqVud" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="de.janthomae.leiningenplugin.settings.LeiningenSettings" />
+  </component>
+  <component name="ReplState" timestamp="1584401200482">{:repl-history {:ide [], :local [{:command &quot;(simple-body-page \&quot;dçk\&quot;)&quot;, :offset 24, :ns &quot;octoevents-clojure.core&quot;}], :remote []}}</component>
+  <component name="RunManager" selected="Clojure REPL.REPL for octoevents-clojure">
+    <configuration name="REPL for octoevents-clojure" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="octoevents-clojure" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="octoevents-clojure" />
+      <setting name="path" value="$PROJECT_DIR$/src/octoevents_clojure/core.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/octoevents_clojure" />
+      <method v="2" />
+    </configuration>
+    <configuration name="octoevents-clojure.core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="octoevents-clojure" />
+      <setting name="path" value="$PROJECT_DIR$/src/octoevents_clojure/core.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/octoevents_clojure" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure REPL.REPL for octoevents-clojure" />
+        <item itemvalue="Clojure Application.octoevents-clojure.core" />
+        <item itemvalue="Clojure Application.core" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b3bee03-c9be-4bbf-990f-8e8c2e895747" name="Default Changelist" comment="" />
+      <created>1584394759194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584394759194</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="366" y="92" width="624" height="539" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584399275867">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="366" y="92" width="624" height="539" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1584399275867" />
+    <state x="466" y="108" width="424" height="510" key="FileChooserDialogImpl" timestamp="1584399533680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="108" width="424" height="510" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584399533680" />
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1584399242789">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584399242789" />
+    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1584399242788">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584399242788" />
+    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1584399242788">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584399242788" />
+    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1584399242789">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1320" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584399242789" />
+    <state x="266" y="109" width="824" height="506" key="IDE.errors.dialog" timestamp="1584399166989">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="266" y="109" width="824" height="506" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1584399166989" />
+    <state x="187" y="0" key="SettingsEditor" timestamp="1584399551503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584399551503" />
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1584446353525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584446353525" />
+  </component>
+</project>
