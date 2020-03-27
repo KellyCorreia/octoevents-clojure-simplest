@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b3bee03-c9be-4bbf-990f-8e8c2e895747" name="Default Changelist" comment="" />
+    <list default="true" id="a840a98c-b6a4-4f45-a61f-ebfea695f170" name="Default Changelist" comment="The simplest working version.">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__cheshire_5_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__tigris_0_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/octoevents_clojure/model.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/octoevents-clojure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/octoevents-clojure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/octoevents_clojure/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/octoevents_clojure/core.clj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1ZECF6Y5DfnH6imuG5BJIlaqVud" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZXxsY8u40Axv9nJUyS65rswvh6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,9 +34,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="de.janthomae.leiningenplugin.settings.LeiningenSettings" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="google-java-format.settings" />
   </component>
-  <component name="ReplState" timestamp="1584401200482">{:repl-history {:ide [], :local [{:command &quot;(simple-body-page \&quot;dçk\&quot;)&quot;, :offset 24, :ns &quot;octoevents-clojure.core&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1585276040908">{:repl-history {:ide [], :local [{:command &quot;(pprint \&quot;request-body: \\\&quot;value\\\&quot;\&quot;)&quot;, :offset 34, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;(println (cheshire/parse-string \&quot;request-body\&quot; true))&quot;, :offset 53, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;(println (cheshire/parse-string \&quot;request-body: \\\&quot;value\\\&quot;\&quot; true))&quot;, :offset 0} {:command &quot;(def key \&quot;chave\&quot;)\n&quot;, :offset 17, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;(def key02 \&quot;chave\&quot;)\n&quot;, :offset 19, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;(def value02 \&quot;valor\&quot;)&quot;, :offset 21, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;(println (cheshire/parse-string key02 \&quot;:\&quot; value02 true))&quot;, :offset 56, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;(println (cheshire/parse-string (str key02 \&quot;:\&quot; value02) true))&quot;, :offset 62, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;(println (cheshire/encode (str key02 \&quot;:\&quot; value02) true))&quot;, :offset 56, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;(def request-body02 \&quot;{\\n      \\\&quot;action\\\&quot;:\\\&quot;opened\\\&quot;}\&quot;)&quot;, :offset 54, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;(json/read-str request-body02)&quot;, :offset 30, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;(def request-body02 \&quot;{\\\&quot;action\\\&quot;:\\\&quot;opened\\\&quot;}\&quot;)&quot;, :offset 46, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;request-body02&quot;, :offset 14, :ns &quot;octoevents-clojure.core&quot;} {:command &quot;(slurp request-body02)&quot;, :offset 22, :ns &quot;octoevents-clojure.core&quot;}], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.REPL for octoevents-clojure">
     <configuration name="REPL for octoevents-clojure" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
       <module name="octoevents-clojure" />
@@ -34,7 +56,6 @@
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
-      <module name="" />
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="" />
@@ -49,7 +70,6 @@
       <setting name="replType" value="SOCKET" />
       <setting name="configType" value="SPECIFY" />
       <setting name="fixLineNumbers" value="false" />
-      <module name="" />
       <method v="2" />
     </configuration>
     <configuration name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
@@ -64,22 +84,9 @@
       <setting name="workDir" value="$PROJECT_DIR$/src/octoevents_clojure" />
       <method v="2" />
     </configuration>
-    <configuration name="octoevents-clojure.core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="octoevents-clojure" />
-      <setting name="path" value="$PROJECT_DIR$/src/octoevents_clojure/core.clj" />
-      <setting name="namespace" value="" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/octoevents_clojure" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Clojure REPL.REPL for octoevents-clojure" />
-        <item itemvalue="Clojure Application.octoevents-clojure.core" />
         <item itemvalue="Clojure Application.core" />
       </list>
     </recent_temporary>
@@ -89,50 +96,46 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b3bee03-c9be-4bbf-990f-8e8c2e895747" name="Default Changelist" comment="" />
-      <created>1584394759194</created>
+      <changelist id="a840a98c-b6a4-4f45-a61f-ebfea695f170" name="Default Changelist" comment="" />
+      <created>1584999446926</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584394759194</updated>
+      <updated>1584999446926</updated>
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="The simplest working version." />
+    <option name="LAST_COMMIT_MESSAGE" value="The simplest working version." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="366" y="92" width="624" height="539" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584399275867">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1737" y="107" width="995" height="822" key="CommitChangelistDialog2" timestamp="1585276071386">
+      <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state x="366" y="92" width="624" height="539" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1584399275867" />
-    <state x="466" y="108" width="424" height="510" key="FileChooserDialogImpl" timestamp="1584399533680">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1737" y="107" width="995" height="822" key="CommitChangelistDialog2/1280.0.1920.1080/0.360.1280.720@1280.0.1920.1080" timestamp="1585276071386" />
+    <state x="2109" y="277" width="424" height="482" key="FileChooserDialogImpl" timestamp="1585005680138">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="466" y="108" width="424" height="510" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584399533680" />
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom" timestamp="1584399242789">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2109" y="277" width="424" height="482" key="FileChooserDialogImpl/1366.0.1920.1080/0.0.1366.768@1366.0.1920.1080" timestamp="1585005680138" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1585008169784">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584399242789" />
-    <state width="1320" height="172" key="GridCell.Tab.0.center" timestamp="1584399242788">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/1366.0.1920.1080/0.0.1366.768@1366.0.1920.1080" timestamp="1585008169784" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1585008169784">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584399242788" />
-    <state width="1320" height="172" key="GridCell.Tab.0.left" timestamp="1584399242788">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center/1366.0.1920.1080/0.0.1366.768@1366.0.1920.1080" timestamp="1585008169784" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1585008169783">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584399242788" />
-    <state width="1320" height="172" key="GridCell.Tab.0.right" timestamp="1584399242789">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left/1366.0.1920.1080/0.0.1366.768@1366.0.1920.1080" timestamp="1585008169783" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1585008169784">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1320" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584399242789" />
-    <state x="266" y="109" width="824" height="506" key="IDE.errors.dialog" timestamp="1584399166989">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/1366.0.1920.1080/0.0.1366.768@1366.0.1920.1080" timestamp="1585008169784" />
+    <state x="1830" y="154" key="SettingsEditor" timestamp="1585008409601">
+      <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="266" y="109" width="824" height="506" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1584399166989" />
-    <state x="187" y="0" key="SettingsEditor" timestamp="1584399551503">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584399551503" />
-    <state x="376" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1584446353525">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="376" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584446353525" />
+    <state x="1830" y="154" key="SettingsEditor/1366.0.1920.1080/0.0.1366.768@1366.0.1920.1080" timestamp="1585008409601" />
   </component>
 </project>

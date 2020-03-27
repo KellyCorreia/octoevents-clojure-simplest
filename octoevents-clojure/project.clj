@@ -11,6 +11,7 @@
                  ; Ring defaults - for query params etc
                  [ring/ring-defaults "0.3.2"]
                  ; Clojure data.JSON library
-                 [org.clojure/data.json "0.2.6"]]
+                 [org.clojure/data.json "0.2.6"]
+                 [cheshire "5.10.0"]]
   :repl-options {:init-ns octoevents-clojure.core}
   :main octoevents-clojure.core/-main)
